@@ -13,8 +13,10 @@ const softSkills = [
 </script>
 
 <template>
-  <div class="text-lg">soft skills</div>
-  <ul class="list-dics list-inside">
-    <li v-for="skill in softSkills" :key="skill" class="mt-2">{{ skill }}</li>
-  </ul>
+  <div>
+    <div class="text-lg">soft skills</div>
+    <ul class="list-disc list-inside">
+      <li v-for="skill in softSkills" :key="skill" class="mt-2">{{ skill }}</li>
+    </ul>
+  </div>
 </template>

@@ -4,54 +4,55 @@ const hardSkills = [
   "object orientated and functional programming",
   "mvc framework knowledge",
   "ci/cd",
-  "production application monitoring",
+  "production application monitoring (Sentry & Datadog)",
   "containerization",
 ];
 
 const softwareTools = [
   "git/github/gitlab",
-  "vscode",
+  "vscode/rubymine",
   "figma",
-  "argocd",
   "docker",
   "kubernetes",
   "aws",
 ];
 
 const languages = [
-  "ruby",
-  "javascipt",
-  "python",
-  "java",
-  "elixir",
-  "sql",
-  "c++",
+  "javascipt (experienced)",
+  "ruby (experienced)",
+  "some experience with: python, java, elixir, c++",
 ];
 
-const frameworks = ["ruby on rails", "vuejs", "reactjs", "nextjs", "phoenix"];
+const frameworks = [
+  "ruby on rails (experienced)",
+  "vuejs (experienced)",
+  "some experience with: react, nextjs, nuxtjs, express",
+];
 </script>
 <template>
-  <div class="text-lg">hard skills</div>
-  <ul class="list-disc list-inside">
-    <li v-for="skill in hardSkills" :key="skill" class="mt-2">{{ skill }}</li>
-  </ul>
+  <div>
+    <div class="text-lg">hard skills</div>
+    <ul class="list-disc list-inside">
+      <li v-for="skill in hardSkills" :key="skill" class="mt-2">{{ skill }}</li>
+    </ul>
 
-  <div class="text-lg mt-4">software tools</div>
-  <ul class="list-disc list-inside">
-    <li v-for="tool in softwareTools" :key="tool" class="mt-2">{{ tool }}</li>
-  </ul>
+    <div class="text-lg mt-4">software tools</div>
+    <ul class="list-disc list-inside">
+      <li v-for="tool in softwareTools" :key="tool" class="mt-2">{{ tool }}</li>
+    </ul>
 
-  <div class="text-lg mt-4">languages</div>
-  <ul class="list-disc list-inside">
-    <li v-for="language in languages" :key="language" class="mt-2">
-      {{ language }}
-    </li>
-  </ul>
+    <div class="text-lg mt-4">languages</div>
+    <ul class="list-disc list-inside">
+      <li v-for="language in languages" :key="language" class="mt-2">
+        {{ language }}
+      </li>
+    </ul>
 
-  <div class="text-lg mt-4">frameworks</div>
-  <ul class="list-disc list-inside">
-    <li v-for="framework in frameworks" :key="framework" class="mt-2">
-      {{ framework }}
-    </li>
-  </ul>
+    <div class="text-lg mt-4">frameworks</div>
+    <ul class="list-disc list-inside">
+      <li v-for="framework in frameworks" :key="framework" class="mt-2">
+        {{ framework }}
+      </li>
+    </ul>
+  </div>
 </template>

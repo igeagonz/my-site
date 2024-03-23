@@ -17,9 +17,6 @@ export default defineNuxtConfig({
         },
       ],
       link: [{ rel: "icon", href: "/favicon.svg" }],
-      bodyAttrs: {
-        class: "py-8 px-12 bg-gray-300 min-h-screen flex flex-col",
-      },
     },
   },
 });
