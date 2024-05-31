@@ -8,7 +8,7 @@ const softSkills = [
   "agile methodology",
   "prioritization and time management",
   "continuous learner",
-  "efficient collaboration with UI/UX desisgner",
+  "efficient collaboration with UI/UX designer",
 ];
 </script>
 
